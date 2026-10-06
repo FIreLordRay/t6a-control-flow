@@ -5,7 +5,7 @@
 for aisle in range(1, 4):
     for shelf in range(1, 5):
         print(f"A{aisle}-S{shelf}", end=" ")
-        #print()
+        print()
 
 # B: Incident Validation (guard clauses). Using the incidents in kata3.py, skip any with no branch or a severity outside 1–3, and print why.
 # Expected: INC-1001 and INC-1004 are logged; INC-1002 and INC-1003 are skipped.
