@@ -3,4 +3,4 @@
 # Expected: Check 1: 15 minutes after shift start … Check 10: 150 minutes after shift start
 
 for check in range(1, 11):
-    print(f"Check {check}: {check * 15} after shift start")
+       print(f"Check {check}: {check * 15} after shift start")
