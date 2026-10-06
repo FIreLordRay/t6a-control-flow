@@ -4,3 +4,4 @@
 
 for check in range(1, 11):
     #print(f"Check {check}: {check * 15} after shift start")
+# we are checking for handheld scanners every 15 mins
