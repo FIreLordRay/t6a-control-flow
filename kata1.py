@@ -2,6 +2,6 @@
 # A Medline branch checks its handheld scanners every 15 minutes. Print the first 10 check times.
 # Expected: Check 1: 15 minutes after shift start … Check 10: 150 minutes after shift start
 
-for check in range(1, 11):
+ for check in range(1, 11):
     #print(f"Check {check}: {check * 15} after shift start")
 # we are checking for handheld scanners every 15 mins
