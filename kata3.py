@@ -4,7 +4,7 @@
 # Expected first row: A1-S1 A1-S2 A1-S3 A1-S4
 for aisle in range(1, 4):
     for shelf in range(1, 5):
-        #print(f"A{aisle}-S{shelf}", end=" ")
+        print(f"A{aisle}-S{shelf}", end=" ")
         #print()
 
 # B: Incident Validation (guard clauses). Using the incidents in kata3.py, skip any with no branch or a severity outside 1–3, and print why.
